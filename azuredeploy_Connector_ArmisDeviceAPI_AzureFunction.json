@@ -50,9 +50,9 @@
         },
         "ArmisFailedReportSchedule":{
             "type": "string",
-            "defaultValue": "0 0 */6 * * *",
+            "defaultValue": "0 0 */1 * * *",
             "metadata": {
-                "description": "Schedule for the failed report to be processed. Enter a valid Quartz Cron-Expression. Default is set to run every 6 hours (0 0 */6 * * *) which is recommended"
+                "description": "Schedule for the failed report to be processed. Enter a valid Quartz Cron-Expression. Default is set to run every 1 hour (0 0 */1 * * *) which is recommended"
             }
         },
         "KeyVaultName": {
